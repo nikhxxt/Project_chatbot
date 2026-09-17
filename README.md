@@ -30,7 +30,6 @@ The chatbot uses **spaCy** to process user input and identify basic conversation
 
 ```text
 Project_chatbot/
-├── app.py
 ├── chatbot.py
 ├── requirements.txt
 ├── README.md
