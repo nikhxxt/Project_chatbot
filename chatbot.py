@@ -12,7 +12,7 @@ responses = {
     "name_provide": ["Nice to meet you, {name}!.", "Hello {name}.", "Great to meet you {name}.", "Pleased to meet you {name}.", "Hello there {name}.",],
     "thanks":  ["You are welcome", "No problem", "Anytime", "Glad to help", "You bet"],
     "how_are_you":  ["I am just a program,But i am here to help!", "I am good thanks for asking!", "I am here to assit you!", "Doing well, Thanks!", "I am okay, Thanks!",],
-    "default": ["I am not sure I understand", "Can you rephrase that", "I am here to help", "Sorry i did not catch that", "Could you clarify that for me"],}
+    "default": ["I am not sure I understand", "Can you rephrase that", "I am here to help", "Sorry i did not catch that", "Could you clarify that for me"]
 }
 
                 
