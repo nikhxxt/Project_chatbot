@@ -48,7 +48,7 @@ Project_chatbot/
 ├── chatbot.py
 ├── requirements.txt
 ├── README.md
-└── output chatbot.jpeg
+
 ```
 
 ## 🚀 Run Locally
