@@ -1,10 +1,6 @@
 # 🤖 Simple ChatBot
 
-A simple NLP-based chatbot built using **Python, spaCy, and Streamlit**.
-
-## 🌐 Live Demo
-
-👉 **[Try the ChatBot](https://projectchatbot-h5xdx2w7zvnsenepu4ecms.streamlit.app/)**
+A lightweight **NLP-based chatbot** built with Python, spaCy, and Streamlit. It identifies basic conversational intents and generates responses from predefined response sets.
 
 ## ✨ Features
 
@@ -12,21 +8,40 @@ A simple NLP-based chatbot built using **Python, spaCy, and Streamlit**.
 * Farewell detection
 * Name-related queries
 * Thank-you responses
-* Basic "How are you?" responses
-* Randomized predefined responses
-* Interactive web interface
-
-## 🛠️ Technologies Used
-
-* **Python**
-* **spaCy**
-* **Streamlit**
+* Basic conversational responses
+* Randomized responses
+* Interactive Streamlit interface
 
 ## 🧠 How It Works
 
-The chatbot uses **spaCy** to process user input and identify basic conversational intents. It then selects a suitable response from a predefined set of responses.
+```text
+User Input
+    │
+    ▼
+spaCy NLP Processing
+    │
+    ▼
+Intent Detection
+    │
+    ▼
+Predefined Response Selection
+    │
+    ▼
+Chatbot Response
+```
 
-## 📂 Project Structure
+The application processes user input with **spaCy**, identifies supported conversational patterns, and selects an appropriate response from predefined responses.
+
+## 🛠️ Tech Stack
+
+**Python · spaCy · Streamlit**
+
+## 🌐 Live Demo
+
+**Try the ChatBot:**
+https://projectchatbot-h5xdx2w7zvnsenepu4ecms.streamlit.app/
+
+## 📁 Project Structure
 
 ```text
 Project_chatbot/
@@ -38,7 +53,7 @@ Project_chatbot/
 
 ## 🚀 Run Locally
 
-Install the required dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -47,15 +62,16 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-streamlit run app.py
+streamlit run chatbot.py
 ```
 
-## 📸 Output
+The application will open in your browser through Streamlit.
+
+## 📸 Preview
 
 A sample chatbot output screenshot is included in the repository.
 
-## 👩‍💻 Author
+## 📄 License
 
-**Malki Shaik Nikhat Naaz**
+MIT License
 
-GitHub: [@nikhxxt](https://github.com/nikhxxt)
