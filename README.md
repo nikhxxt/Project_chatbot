@@ -67,11 +67,3 @@ streamlit run chatbot.py
 
 The application will open in your browser through Streamlit.
 
-## 📸 Preview
-
-A sample chatbot output screenshot is included in the repository.
-
-## 📄 License
-
-MIT License
-
